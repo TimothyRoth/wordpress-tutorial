@@ -44,6 +44,7 @@ if (count($all_posts->posts) > 0) { ?>
 <section id="contact">
     <div class="wrapper">
        <h2>Kontakt</h2>
+        <?php echo do_shortcode('[contact-form-7 id="d91c77f" title="Kontaktformular"]'); ?>
     </div>
 </section>
 
